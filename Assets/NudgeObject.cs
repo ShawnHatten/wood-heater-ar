@@ -1,9 +1,20 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class NudgeObject : MonoBehaviour
 {
+    [SerializeField]
+    private float minScale = 0.05f;
+    [SerializeField]
+    private float maxScale = 0.15f;
+
     private float nudgeAmount = 0.01f;
 
+    public void ChangeScale(float val)
+    {
+        float scale = Mathf.Lerp(minScale, maxScale, val);
+        gameObject.transform.localScale = new Vector3(scale, scale, scale);
+    }
 
     public void ChangeNudgeAmount(int val)
     {
@@ -23,12 +34,12 @@ public class NudgeObject : MonoBehaviour
 
     public void NudgeLeft()
     {
-        gameObject.transform.position += new Vector3(nudgeAmount, 0, 0);
+        gameObject.transform.position += new Vector3(-nudgeAmount, 0, 0);
     }
 
     public void NudgeRight()
     {
-        gameObject.transform.position += new Vector3(-nudgeAmount, 0, 0);
+        gameObject.transform.position += new Vector3(nudgeAmount, 0, 0);
     }
 
     public void NudgeIn()
