@@ -6,9 +6,15 @@ public class NudgeObject : MonoBehaviour
     [SerializeField]
     private float minScale = 0.05f;
     [SerializeField]
-    private float maxScale = 0.15f;
+    private float maxScale = 1.15f;
 
-    private float nudgeAmount = 0.01f;
+    private int nudgeIndexStart = 1;
+    private float nudgeAmount;
+
+    private void Start()
+    {
+        ChangeNudgeAmount(nudgeIndexStart);
+    }
 
     public void ChangeScale(float val)
     {

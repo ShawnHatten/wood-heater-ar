@@ -1,0 +1,9 @@
+# ninja log v5
+86	7170	7524195103550324	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	c229588aba56e288
+110	7298	7524195102151566	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	5184f5e28b979498
+171	8416	7524195112902214	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	49fd434814200324
+3	8477	7524195116752647	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	3e8c314437976af3
+29	8678	7524195116434330	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	56d590c02b646417
+57	9456	7524195123037541	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	f9e2ebb312b496ef
+44	9918	7524195130784519	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	807cc2e3f9e0d151
+9941	11270	7524195144248953	C:/Users/Ben Dover/Documents/GitHub/wood-heater-ar/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/711k1m04/obj/arm64-v8a/libgame.so	9d63914d2df17537
